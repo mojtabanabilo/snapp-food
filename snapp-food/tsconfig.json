@@ -1,16 +1,27 @@
 {
-  "compilerOptions": { 
-    "module": "esnext", 
-    "target": "esnext",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    // "moduleResolution": "node",
     "skipLibCheck": true,
+    "allowJs": true,
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "noImplicitThis": true,
     "strict": true,
-    "allowJs": true
+    "verbatimModuleSyntax": true,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
+    "src/**/*.vue",
     "./env.d.ts"
   ],
   "exclude": [

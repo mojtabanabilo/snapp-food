@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #ff5a5f; /* رنگ اصلی */
+  --secondary-color: #ffffff; /* رنگ ثانویه */
+  --background-color: #f8f8f8; /* رنگ پس‌زمینه */
+  --text-color: #333333; /* رنگ متن */
+  --button-color: #ff6f61; /* رنگ دکمه */
+  --highlight-color: #ffd700; /* رنگ برجسته */
+  --border-color: #cccccc; /* رنگ حاشیه */
+  --link-color: #007bff; /* رنگ لینک */
+  --error-color: #ff0000; /* رنگ خطا */
+}
+
+ّ* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
